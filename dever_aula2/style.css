@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+*{font-family: 'Dosis', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.titulo_site{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    height: 120px;
+    line-height: 120px;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+section h2.titulo_receita{
+    background-color: gray;
+    color:black;
+    font-size: 30px;
+    padding: 10px;
+}
+
+section div.conteiner_informacoes{
+    background-color:  rgb(208, 170, 16);
+    color: white;
+    margin-bottom: 5px;
+}
+section div.conteiner_informacoes ul.informacoes{
+    display: flex;
+    justify-content: center;
+}
+
+section div.conteiner_informacoes ul.informacoes li{
+    padding: 0px 20px ;
+    list-style: none;
+}
+
+section h3.lista_receita{
+    background-color: gray;
+    color:black;
+    font-size: 20px;
+    padding: 10px;
+}
+
+section div.conteiner_informacoes ul.ingredientes{
+    padding: 0px 20px;
+}
+
+section div.conteiner_informacoes ol.modo_preparo{
+    padding: 0px 20px;
+}
+
+
