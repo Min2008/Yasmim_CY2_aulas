@@ -54,4 +54,20 @@ footer a{
     text-decoration: none;
 }
 
+.lista_ingredientes{
+    font-size: 20px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px;
+    margin: 10px;
+}
+
+
+img.image{
+    width: 15%;
+    align-items: center;
+}
+
+
 
