@@ -54,6 +54,24 @@ footer a{
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 /* overflow */
+=======
+.lista_ingredientes{
+    font-size: 20px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px;
+    margin: 10px;
+}
+
+
+img.image{
+    width: 15%;
+    align-items: center;
+}
+
+>>>>>>> 6517e3a2f695a0a53d41eae62298120f400e61e8
 
 
