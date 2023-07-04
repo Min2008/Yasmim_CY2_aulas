@@ -13,7 +13,7 @@ https://i.pinimg.com/736x/8c/2d/b2/8c2db2f5b74e285cd0624e54c85fe92b.jpg
 
 :root{
     --primary-color: #92e27a;
-    --second-color: #D2AC47;
+    --second-color: #8f7b44;
     --third-color: #f2f5f7;
     --fourth-color: #b0b1b3;
     --gap: 3rem;
@@ -112,6 +112,7 @@ img {
 
 .bg-secundario{
     background-color: var(--second-color);
+    color: white;
 }
 
 .conteiner-principal2{

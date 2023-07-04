@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/top3.css">
     <link rel="stylesheet" href="css/grid_fotos.css">
+    <link rel="stylesheet" href="css/formulario.css">
     <title>LandPage</title>
 </head>
 <body>
-    <section class="sessao bg-principal"> 
+    <section id="indice" class="sessao bg-principal"> 
         <div class="conteiner-principal">
             <div class="conteudo-principal">
                     <h1>Pequeno Príncipe</h1>
@@ -24,7 +25,7 @@
         </div>
     </section>
     
-    <section class="sessao bg-secundario">
+    <section id="historia" class="sessao bg-secundario">
         <div class="conteiner-principal2">
             <h2>História</h2>
 
@@ -138,6 +139,53 @@
         </div>
     </section>
 
+    <section id="formulario" class="sessao bg-principal"> 
+        <div class="formulario-content">
+            <div class="formulario-cabecalho">
+                <h2>Titulo</h2>
+                <p>subtitulo</p>
+            </div>
+
+            <div class="formulario-conteudo">
+                <fieldset>
+                    <label>Para contato</label>
+                    
+                    <div class="formulario-elementos">
+                        <label for="primeiro-nome">Nome</label>
+                        <input type="text" name="primeiro-nome" placeholder="primeiro-nome">
+                    </div>
+
+                    <div class="formulario-elementos">
+                        <label for="ultimo-nome">Sobrenome</label>
+                        <input type="text" name="ultimo-nome" placeholder="Sobrenome">
+                    </div>
+
+                    <div class="formulario-elementos">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="digite seu email">
+                    </div>
+
+                    <div class="formulario-elementos">
+                        <label for="comentario">Comente Aqui</label>
+                        <textarea name="comentario" cols="30" rows="10" placeholder="Deixe seu comentario"></textarea>
+                    </div>
+
+                    <div class="formulario-elementos">
+                        <button type="submit">
+                            Enviar
+                        </button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+        <footer id="rodape" class="footer">
+            <p>
+                Feito por Yasmin, aluna da Ctrl+Play
+            </p>
+
+        </footer>
 
 
 </body>
