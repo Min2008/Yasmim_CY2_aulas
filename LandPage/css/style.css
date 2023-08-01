@@ -28,6 +28,7 @@ https://i.pinimg.com/736x/8c/2d/b2/8c2db2f5b74e285cd0624e54c85fe92b.jpg
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body{
