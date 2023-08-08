@@ -9,9 +9,28 @@
     <link rel="stylesheet" href="css/grid_fotos.css">
     <link rel="stylesheet" href="css/formulario.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/mobile.css">
     <title>LandPage</title>
 </head>
 <body>
+    <label for="close-menu" class="close-menu-label"></label>
+    <aside class="menu">
+        <div class="menu-conteudo">
+            <h1><a href="#">LOGO</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#indice">Indice</a></li>
+                    <li><a href="#historia">Historia</a></li>
+                    <li><a href="#top3">Top 3</a></li>
+                    <li><a href="#grid-fotos">Fotos</a></li>
+                    <li><a href="#formulario">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+
     <section id="indice" class="sessao bg-principal"> 
         <div class="conteiner-principal">
             <div class="conteudo-principal">
@@ -149,29 +168,29 @@
 
             <div class="formulario-conteudo">
                 <fieldset>
-                    <label class="cabecalho">Para contato</label>
+                    <label class="cabecalho item1">Para contato</label>
                     
-                    <div class="formulario-elementos">
+                    <div class="formulario-elementos item2">
                         <label for="primeiro-nome">Nome</label>
                         <input type="text" name="primeiro-nome" placeholder="primeiro-nome">
                     </div>
 
-                    <div class="formulario-elementos">
+                    <div class="formulario-elementos item3">
                         <label for="ultimo-nome">Sobrenome</label>
-                        <input type="text" name="ultimo-nome" placeholder="Sobrenome">
+                        <input class="sobrenome" type="text" name="ultimo-nome" placeholder="Sobrenome">
                     </div>
 
-                    <div class="formulario-elementos">
+                    <div class="formulario-elementos item4">
                         <label for="email">Email</label>
                         <input type="email" name="email" placeholder="digite seu email">
                     </div>
 
-                    <div class="formulario-elementos">
+                    <div class="formulario-elementos item5">
                         <label for="comentario">Comente Aqui</label>
-                        <textarea name="comentario" cols="30" rows="10" placeholder="Deixe seu comentario"></textarea>
+                        <textarea class="textarea" name="comentario" cols="30" rows="10" placeholder="Deixe seu comentario"></textarea>
                     </div>
 
-                    <div class="formulario-elementos">
+                    <div class="formulario-elementos item6">
                         <button type="submit">
                             Enviar
                         </button>
