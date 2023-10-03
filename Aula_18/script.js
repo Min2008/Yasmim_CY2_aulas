@@ -23,13 +23,6 @@ const NOME_TXT = document.getElementById('nome');
 const MEDIA_TXT = document.getElementById('media');
 const RESULTADO_TXT = document.getElementById('resultado');
 
-// USA PARA APARECER NA TELA COM O PROMPT()
-NOME_TXT.innerHTML = prompt('Digite o nome do aluno:');
-// para ser inteiro
-n1 = parseInt(prompt('Digite a 1ª nota:'));
-n2 = parseInt(prompt('Digite a 2ª nota:'));
-n3 = parseInt(prompt('Digite a 3ª nota:'));
-
 let soma = n1 + n2 + n3
 let media = soma / 3
 
@@ -46,6 +39,7 @@ else
     RESULTADO_TXT.innerHTML = 'RECUPERAÇÃO'
 }
 MEDIA_TXT.innerHTML = media
+NOME_TXT.innerHTML = nome
 
 
 /** problemas a concertar
@@ -54,3 +48,4 @@ MEDIA_TXT.innerHTML = media
  * 3 - formatar as casas decimais
  * 4 - cor coerente com o resultado, por exemplo: verde - aprovado; vermelho - reprovado e laranja - recuperação
  */
+

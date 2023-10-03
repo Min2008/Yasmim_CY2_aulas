@@ -45,3 +45,17 @@ main label {
     font-weight: bold;
     font-size: 20px;
 }
+
+button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.837);
+    color: white;
+}
+
+button:hover{
+    background-color: rgba(205, 163, 47, 0.859);
+}
