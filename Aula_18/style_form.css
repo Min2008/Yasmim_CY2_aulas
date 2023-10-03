@@ -59,3 +59,23 @@ button {
 button:hover{
     background-color: rgba(205, 163, 47, 0.859);
 }
+
+.btncontent {
+    width: 100%;
+    display: flex;
+    justify-content: end;    
+}
+
+input::placeholder{
+    padding-left: 10px;
+}
+
+input {
+    padding: 4px;
+    font-size: 15px;
+}
+
+label{
+    margin: 8px;
+    font-size: 15px;
+}

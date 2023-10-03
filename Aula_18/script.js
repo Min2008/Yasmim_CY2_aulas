@@ -22,30 +22,48 @@
 const NOME_TXT = document.getElementById('nome');
 const MEDIA_TXT = document.getElementById('media');
 const RESULTADO_TXT = document.getElementById('resultado');
+const NOME_INPUT = document.getElementById('nome_input')
+const N1_INPUT = document.getElementById('n1_input');
+const N2_INPUT = document.getElementById('n2_input');
+const N3_INPUT = document.getElementById('n3_input');
+const FORM = document.getElementById('form')
 
-let soma = n1 + n2 + n3
-let media = soma / 3
 
-if (media >= 7)
-{
-    RESULTADO_TXT.innerHTML = 'APROVADO'
-} 
-else if (media <= 4) 
-{
-    RESULTADO_TXT.innerHTML = 'REPROVADO'
-} 
-else 
-{
-    RESULTADO_TXT.innerHTML = 'RECUPERAÇÃO'
+
+function calcular_media(){
+    n1 = parseInt(localStorage.getItem('n1'))
+    n2 = parseInt(localStorage.getItem('n2'))
+    n3 = parseInt(localStorage.getItem('n3'))
+
+    let soma = n1 + n2 + n3
+    let media = soma / 3
+    
+    if (media >= 7)
+    {
+        RESULTADO_TXT.innerHTML = 'APROVADO'
+    } 
+    else if (media <= 4) 
+    {
+        RESULTADO_TXT.innerHTML = 'REPROVADO'
+    } 
+    else 
+    {
+        RESULTADO_TXT.innerHTML = 'RECUPERAÇÃO'
+    }
+    MEDIA_TXT.innerHTML = media
 }
-MEDIA_TXT.innerHTML = media
-NOME_TXT.innerHTML = nome
+
+
+
+
+
+
 
 
 /** problemas a concertar
- * 1 - criar o formulário para coletar nome e três notas
- * 2 - tratar erros (nome e nota obrigatorios e a nota tem que ser condizente, ou seja, entre 1 e 10)
- * 3 - formatar as casas decimais
- * 4 - cor coerente com o resultado, por exemplo: verde - aprovado; vermelho - reprovado e laranja - recuperação
+ * 1 - criar o formulário para coletar nome e três notas - feito!
+ * 2 - tratar erros (nome e nota obrigatorios e a nota tem que ser condizente, ou seja, entre 1 e 10) - feito!
+ * 3 - formatar as casas decimais - feito!
+ * 4 - cor coerente com o resultado, por exemplo: verde - aprovado; vermelho - reprovado e laranja - recuperação 
  */
 
