@@ -1,16 +1,11 @@
 const form = document.getElementById('form')
-const nome = document.getElementById('nome_input')
+const NOME_INPUT = document.getElementById('nome_input')
 const botao = document.getElementById('enviar_input')
-const n1 = document.getElementById('n1_input')
-const n2 = document.getElementById('n2_input')
-const n3 = document.getElementById('n3_input')
+const N1_INPUT = document.getElementById('n1_input')
+const N2_INPUT = document.getElementById('n2_input')
+const N3_INPUT = document.getElementById('n3_input')
 
 // validar o formulario:
-FORM.addEventListener('submit', (e) => {
-    e.preventDefault()
-    pegar_valores()
-    calcular_media()
-})
 
 function pegar_valores(){
     const nome = NOME_INPUT.value
@@ -21,11 +16,13 @@ function pegar_valores(){
     localStorage.setItem('n1', n1)
     localStorage.setItem('n2', n2)
     localStorage.setItem('n3', n3)
+    window.location.pathname = "Aula_18/milho.html"
 }
 
-form.addEventListener('submit', (event) => {
-    event.preventDefault();
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
     
+    pegar_valores();
     // verificar se as notas estao preenchidas
     if(!validaNotas(nota1.value)){
         alert('Preencha a primeira nota!')

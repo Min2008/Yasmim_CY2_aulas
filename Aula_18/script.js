@@ -53,7 +53,14 @@ function calcular_media(){
     MEDIA_TXT.innerHTML = media
 }
 
+function nome(){
+    aluno = localStorage.getItem("nome")
+    NOME_TXT.innerHTML = aluno
+}
 
+
+nome();
+calcular_media();
 
 
 
