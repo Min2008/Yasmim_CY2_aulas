@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Mooli&family=Onest&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Onest', sans-serif;
+}
+
+body {
+    background-color: brown;
+    color: rgb(243, 243, 78);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.conteiner-gerador-senhas{
+    background-color: rgba(136, 19, 19, 0.603);
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 2px 3px 8px rgb(243, 243, 78);
+}
+
+.head-gerador-senhas{
+    padding: 20px;
+}
+
+.senha{
+    background-color: rgba(78, 5, 5, 0.719);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    overflow: hidden;
+    padding: 8px;
+}
+
+.senha span {
+    color: white;
+}
+
+.senha button{
+    transition: opacity 0.2s  ease, transform 0.2s ease;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.senha:hover button {
+    opacity: 1;
+    transform: translate(0, 0%);
+}
+
+.body-gerador-senhas{
+    padding: 20px;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.gerar-senha{
+    background-color: rgba(78, 5, 5, 0.719);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+}
