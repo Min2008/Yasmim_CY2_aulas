@@ -7,33 +7,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <div class="contador-body">
         <h1>Contador</h1>
+        <div class="conteiner-numero">
+            <span id="numero" >0</span>
+        </div>
+        <div class="conteiner-buttons">
+            <div>
+                <button class="button" id="diminuir">-</button>
+            </div>
+    
+            <div>
+                <button class="button" type="reset" id="resetar">Resetar</button>
+            </div>
+            
+            <div>
+                <button class="button" id="aumentar">+</button>
+            </div>
+        </div>
+        <div class="conteiner-buttons">
+            <div>
+                <button class="button-sozinho" id="aumentar-sozinho">Aumentar automatico</button>
+            </div>
+    
+            <div>
+                <button class="button-sozinho" id="diminuir-sozinho">Diminuir automatico</button>
+            </div>
+        </div>
     </div>
-    <div class="conteiner-numero">
-        <p>Numero</p>
-    </div>
-    <div class="conteiner-buttons">
-        <div class="button">
-            <button type="reset" id="resetar">Resetar</button>
-        </div>
-        <div class="button">
-            <button id="diminuir">Diminuir</button>
-        </div>
-        <div class="button">
-            <button id="aumentar">Aumentar</button>
-        </div>
-    </div>
-    <div class="conteiner-buttons">
-        <div class="button-sozinho">
-            <button id="aumentar-sozinho">Aumentar automatico</button>
-        </div>
-        <div class="button-sozinho">
-            <button id="diminuir-sozinho">Diminuir automatico</button>
-        </div>
-    </div>
-
-
 
     <script src="script.js"></script>
 </body>

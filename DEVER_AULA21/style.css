@@ -8,7 +8,6 @@
 }
 
 body {
-    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,29 +17,52 @@ body {
     height: 100vh;
 }
 
+.contador-body{
+    color: rgb(70, 69, 69);
+    box-shadow: 0 5px 10px  rgba(70, 69, 69, 0.726);
+}
+
 h1{
     font-size: 60px;
     text-align: center;
 }
 
 .conteiner-numero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 10px;
-    font-size: 50px;
+}
+
+span{
+    color: black;
+    font-size: 80px;
 }
 
 .conteiner-buttons{
-    color: black;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     font-size: 35px;
     padding: 10px;
     overflow: hidden;
 }
 
-.button{
+button{
+    border-style: none;
+    color: white;
+    background-color: rgba(70, 69, 69, 0.726);
+    margin: 10px;
+    font-size: 15px;
     padding: 10px;
+    cursor: pointer;
 }
 
 .button-sozinho{
+    font-size: 10px;
     padding: 10px; 
+}
+
+button:hover{
+    background-color: rgb(214, 140, 214);
 }
