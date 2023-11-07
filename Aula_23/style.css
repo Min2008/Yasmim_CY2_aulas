@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=IBM+Plex+Sans&family=Mooli&family=Onest&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    background-color: rgba(224, 81, 105, 0.69);;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pesquisa{
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: bold; /*deixa a letra mais grossa */
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    border: 3px solid rgb(125, 116, 118);
+}
+
+.pesquisa::placeholder{
+    color: rgba(224, 81, 105, 0.69);
+    font-size: 14px;
+}
+
+.pesquisa:focus{
+    outline: none;
+    background-color:  rgb(125, 116, 118);
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filme{
+    width: 300px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 20px;
+    background-color: rgba(224, 81, 105, 0.69);
+}
+
+.filme img{
+    width: 100%; /*vai pegar 100% da div criada no java*/
+    overflow: hidden;
+}
+
+.filme .filme-info{
+    background-color: rgba(155, 62, 78, 0.69);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    letter-spacing: 1px;
+    align-items: center;
+    height: 100px;
+}
+
+.filme .filme-info span{
+    background-color:  rgb(91, 86, 87);
+    border-radius: 2px;
+    padding: 2px 5px;
+}
+
+/* mudar a cor das notas */
+.filme .filme-info span.green{
+    color: rgb(133, 255, 133);
+}
+.filme .filme-info span.yellow{
+    color: rgb(255, 255, 151);
+}
+.filme .filme-info span.red{
+    color: red;
+}
