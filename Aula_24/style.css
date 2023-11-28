@@ -68,7 +68,7 @@ main{
     position: absolute;
     bottom: 10%;
     left: 50%;
-    widows: 65%;
+    width: 65%;
     display: flex;
     transform: translate(-57%, 0);
     gap: 20px;
