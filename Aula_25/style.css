@@ -47,6 +47,7 @@ img{
 .search{
     border: none;
     background-color: rgba(0, 0, 0, 0.66);
+    color: lightblue;
     border-radius: 1.5rem;
     width: 70%;
     height: 40%;

@@ -11,8 +11,6 @@ const SUB_REGIAO = document.querySelector('.sub-regiao')
 const SIGLA = document.querySelector('.sigla')
 const POPULATION = document.querySelector('.populacao')
 
-
-
 const fetch_country = async(country) => {
     const response = await fetch(URL_BASE + country)
     if (response.status === 200) {
@@ -22,6 +20,7 @@ const fetch_country = async(country) => {
 }
 
 const render_country = async(countries) => {
+    
     const info = await fetch_country(countries)
     if(info){
         NOME.innerHTML = info[0].name['official']
@@ -32,7 +31,17 @@ const render_country = async(countries) => {
         SUB_REGIAO.innerHTML = info[0].subregion
         SIGLA.innerHTML = info[0].fifa
         POPULATION.innerHTML = info[0].population
+        ENTRADA.innerHTML = "" 
     }
 }
 
-render_country('Mexico')
+FORM.addEventListener('submit', (evento) => {
+    evento.preventDefault()
+    let paises = ENTRADA.value.toLowerCase()
+    render_country(paises)
+});
+
+// TERRITORIO.addEventListener('submit', (e) => {
+//     e.preventDefault()
+//     // let number = TERRITORIO.parseInt( number + "km")
+// })
