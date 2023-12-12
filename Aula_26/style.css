@@ -20,7 +20,7 @@ form{
     background-color: rgb(194, 1, 1);
     color: white;
     width: 60%;
-    height: 30%;
+    height: 40%;
 }
 
 h1{
@@ -35,7 +35,7 @@ h1{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 86%;
+    width: 95%;
     padding-bottom: 20px;
 }
 
@@ -58,6 +58,7 @@ input{
     border: none;
     outline: none;
     background-color: rgb(0, 0, 0);
+    color: white
 }
 
 input::placeholder{
