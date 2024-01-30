@@ -6,7 +6,7 @@
   }
   
   body {
-    background-color: #333;
+    background-color: rgba(255, 192, 203, 0.867);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,8 +16,8 @@
   #calc {
     width: 400px;
     padding: 0.5em;
-    background-color: #c4c4c4;
-    color: #000;
+    background-color: rgb(102, 102, 102);
+    color: #ffffff;
     display: flex;
     flex-direction: column;
   }
@@ -25,7 +25,7 @@
   #calc h3 {
     font-size: 0.8em;
     font-weight: 300;
-    color: #666;
+    color: rgb(255, 255, 255);
   }
   
   #operations {
@@ -33,7 +33,7 @@
   }
   
   #previous-operation {
-    color: #777;
+    color: #ffffffd7;
     padding: 0.2em;
     overflow-wrap: break-word;
     min-height: 1.6em;
@@ -58,25 +58,25 @@
     border-radius: 0;
     height: 4em;
     font-size: 1.2em;
-    background-color: #dbdbdb;
+    background-color: rgba(239, 151, 166, 0.795);
     cursor: pointer;
   }
   
   #buttons-container .number {
-    background-color: #f3f3f3;
+    background-color: rgb(255, 181, 193);
   }
   
   #buttons-container button:hover {
     background-color: #bababa;
-    border-color: #999;
+    border-color: #ffffff;
   }
   
   #buttons-container #equal-btn {
     grid-column: span 2;
-    background-color: #75a5cb;
+    background-color: #ffffff;
   }
   
   #buttons-container #equal-btn:hover {
     grid-column: span 2;
-    background-color: #3a91d8;
+    background-color: #ffffff;
   }
