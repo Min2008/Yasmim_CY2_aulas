@@ -1,10 +1,143 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Inconsolata&family=Montserrat&family=Poppins&family=Ubuntu&display=swap');
 
-#beneficios-conteudos{
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+    /* font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif; */
+}
+
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+    /* background-color:  #0a112f; */
+    
+}
+
+/* Sessao introduçao */
+
+#sessao{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo{
+    margin: 0rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-color: rgba(112, 107, 107, 0.144);
+    border-radius: 1rem;
+
+}
+
+.conteudo-esquerda{
+    width: 40%;
+    padding: 3rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteudo-esquerda h1{
+    height: 20%;
+}
+
+.conteudo-direita{
+    width: 50%;
+    padding: 3rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-direita h1{
+    height: 20%;
+}
+
+/* Sessao matérias */
+
+.materias-conteudo{
+    background-color: #0a112f;
+}
+
+.titulo-materias{
+    color: yellow;
+}
+
+.title-materia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    padding: 3rem;
+}
+
+.img{
+    width: 23rem;
+    height: 23rem;
+}
+
+.materias{
+    color: #ffffff;
+}
+
+.titulos{
+    padding-bottom: 3rem;
+    color: yellow;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    padding: 3rem;
+    width: 70%;
+}
+
+footer{
+    color: rgb(6, 6, 6);
+    background-color: rgb(127, 125, 125);
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 45%;
+    padding-left: 10px;
+}
+
+a:link{
+    text-decoration: none;
+    color: rgb(215, 252, 3);
+}
+
+.footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-bottom: 3rem;
+}
+
+.beneficios-conteudos{
         min-height: 100vh;
         display: flex;
         justify-content: center;
@@ -22,9 +155,4 @@ h2 {
     display: flex;
     text-align: center;
     justify-content: center;
-}
-
-p {
-    margin: 15px;
-    padding: 5px;
 }
