@@ -117,41 +117,41 @@ body {
 
 footer{
     color: rgb(6, 6, 6);
-    background-color: rgb(127, 125, 125);
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    width: 45%;
-    padding-left: 10px;
-}
-
-a:link{
-    text-decoration: none;
-    color: rgb(215, 252, 3);
-}
-
-.footer{
-    justify-content: center;
-    align-items: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
     display: flex;
-    padding-bottom: 3rem;
+    justify-content: center;
+    margin: 10px;
+    width: 100%;
 }
 
-.beneficios-conteudos{
-        min-height: 100vh;
-        display: flex;
-        justify-content: center;
+.beneficios-conteudo{
+    height: 100vh;
+    margin: 0 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgba(112, 107, 107, 0.144);
+    border-radius: 1rem;
 }
 
 div .section3{
     font-size: 50px;
 }
 
+.section3 p{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 50px;
+}
 
 h2 {
-    font-size: 2rem;
+    font-size: 40px;
     text-transform: capitalize;
-    margin-top: 10px;
+    height: 40%;
     display: flex;
     text-align: center;
     justify-content: center;
